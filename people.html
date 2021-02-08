@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<header>
+    <div class="container">
+		<div id="brandname">
+			People Informations
+		</div>
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for your operation</b></p>
+	{% if img_url %}
+	<img src="{{ img_url }}">
+	{% else %}
+	<h3>No picture to show</h3>
+	{% endif %}
+
+</body>
+</html>
